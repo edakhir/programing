@@ -1,0 +1,116 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* encabezado */
+
+header{
+    background: #cccccc;
+    padding: 20px 0;   /*se mueve el logo mas abajo */
+}
+
+.caja{
+    width: 940px;      
+    position: relative;  /* relativa al tamaño creo.*/
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+/* main */
+
+/* es primero el titulo y el banner que ocupan el 100% de la pagina */
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 1em;        /*cuando se usa margin se suele referir a externo */
+}
+
+.banner{                    /* clase es mas para estilo que para comportamiento */
+    width: 100%;
+}
+
+/* de aqui en adelante es la section class = "principal" */
+
+.principal{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-centralizado{ 
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em; 
+}
+
+.principal p{
+    margin: 0 0 1em;
+}
+
+.utensilios{
+    width:120px;
+    float: left;
+    margin: 0 20px 20px 0px;
+}
+
+.principal p{
+    margin: 0 0 1em 0;   /* practicamente espaciado interlineal */
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+
+.diferenciales{
+    width: 940px;
+    margin:0 auto;
+}
+
+/* titulo centralizado ya esta en 4 */
+
+.items{
+    padding: 10px;
+}
+
+
+.imagen-diferenciales{
+    width: 60%;
+}
+/* footer */
+
+footer{
+    text-align: center;
+    color: white;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
